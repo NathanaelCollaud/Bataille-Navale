@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\tanol\Documents\GitHub\Bataille-Navale\Bataille-Navale-Progr
+"C:\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "P:\1a\Module I-CT\ICT-431\Bataille-Navale\Bataille-Navale-Collaud_Nathanael"
 -- The C compiler identification is GNU 8.1.0
 -- Check for working C compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe
 -- Check for working C compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe -- works
@@ -8,4 +8,4 @@
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug
+-- Build files have been written to: P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug

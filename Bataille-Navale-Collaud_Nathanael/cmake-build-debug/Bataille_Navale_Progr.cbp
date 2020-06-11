@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug"/>
+				<Option working_dir="P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug"/>
+				<Option working_dir="P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Bataille_Navale_Progr">
-				<Option output="C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Bataille_Navale_Progr.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug"/>
+				<Option output="P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Bataille_Navale_Progr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -39,15 +39,15 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bataille_Navale_Progr"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bataille_Navale_Progr"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Bataille_Navale_Progr/fast">
-				<Option output="C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Bataille_Navale_Progr.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug"/>
+				<Option output="P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Bataille_Navale_Progr.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -57,27 +57,27 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bataille_Navale_Progr/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 Bataille_Navale_Progr/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug"/>
+				<Option working_dir="P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/main.c">
+		<Unit filename="P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/main.c">
 			<Option target="Bataille_Navale_Progr"/>
 		</Unit>
-		<Unit filename="C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Progr/CMakeLists.txt">
+		<Unit filename="P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
