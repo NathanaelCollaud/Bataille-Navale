@@ -8,11 +8,9 @@
 #include <stdio.h>
 #include <windows.h>
 #include <math.h>
-
 #pragma execution_character_set( "utf-8" )
 int grille[10][10];
-int retourMenu, vieBateaux = 16;
-
+int retourMenu=1, vieBateaux = 16;
 int grilleBateaux[10][10] = {{0, 1, 1, 0, 0, 0, 0, 0, 0, 1},
                              {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
                              {0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
@@ -23,9 +21,7 @@ int grilleBateaux[10][10] = {{0, 1, 1, 0, 0, 0, 0, 0, 0, 1},
                              {0, 1, 0, 0, 0, 0, 0, 0, 0, 1},
                              {0, 1, 0, 0, 0, 0, 0, 0, 0, 1},
                              {0, 1, 0, 1, 1, 0, 0, 0, 0, 1}};
-
 void afficherGrille() {
-
     printf("     A    B    C    D    E    F    G    H    I    J\n");
     for (int i = 0; i < 10; ++i) {
         printf("%d ", i + 1);
@@ -38,15 +34,11 @@ void afficherGrille() {
             } else {
                 printf("[   ]");
             }
-
         }
         printf("\n");
-
     }
 }
-
 void jouer() {
-
     char tirHori;
     int tirVerti;
     do {
@@ -59,24 +51,20 @@ void jouer() {
         printf("\nQuelle est la coordonnée verticale? (entrez un nombre entre 1 et 10):");
         fflush(stdin);
         scanf("%d", &tirVerti);
-
         for (char i = 'A'; i <= tirHori; ++i) {
             compteur++;
         }
         if (grilleBateaux[tirVerti-1][compteur - 1] == 0) {
             grille[tirVerti-1][compteur - 1]= 2;
-        } else {
+        } else if(grilleBateaux[tirVerti-1][compteur - 1] == 1){
             grille[tirVerti-1][compteur - 1]= 1;
+            grilleBateaux[tirVerti-1][compteur - 1] =2;
             vieBateaux--;
-
         }
-
     } while (vieBateaux > 0);
     printf("\nBien joué, tous les bateaux ont étés coulés!!!!\n");
     system("pause");
-
 }
-
 void regles() {
     system("cls");
     printf("                                        RÈGLES\n                                        ──────\n\n");
@@ -89,11 +77,8 @@ void regles() {
     system("pause");
     retourMenu = 1;
 }
-
 void score() {}
-
 void pseudo() {}
-
 void menu() {
     do {
         system("cls");
@@ -110,7 +95,6 @@ void menu() {
                "Votre choix :");
         fflush(stdin);
         scanf("%f", &choixMenu);
-
         if ((choixMenu == 1 || choixMenu == 2 || choixMenu == 3 || choixMenu == 4 || choixMenu == 5)) {
             choixCorrect = choixMenu;
         } else {
@@ -140,8 +124,6 @@ void menu() {
         }
     } while (retourMenu == 1);
 }
-
-
 int main() {
     system("cls");
     menu();
