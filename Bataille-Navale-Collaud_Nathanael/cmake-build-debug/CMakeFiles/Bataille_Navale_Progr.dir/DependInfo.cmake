@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/main.c" "P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/CMakeFiles/Bataille_Navale_Progr.dir/main.c.obj"
+  "C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/main.c" "C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/CMakeFiles/Bataille_Navale_Progr.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

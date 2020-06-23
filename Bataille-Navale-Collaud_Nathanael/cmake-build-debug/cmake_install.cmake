@@ -1,4 +1,4 @@
-# Install script for directory: P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael
+# Install script for directory: C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Collaud_Nathanael
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "P:/1a/Module I-CT/ICT-431/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/tanol/Documents/GitHub/Bataille-Navale/Bataille-Navale-Collaud_Nathanael/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
