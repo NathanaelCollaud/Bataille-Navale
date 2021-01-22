@@ -1,9 +1,9 @@
--- -------------------------- --
--- Project : Magasin de disque    --
--- Author  : Collaud Nathanael et Santos Tiago --
--- Version : 1.0              --
--- Date    : 21.01.2021       --
--- -------------------------- --
+-- --------------------------					--
+-- Project : Magasin de disque					--
+-- Author  : Collaud Nathanael et Santos Tiago	--
+-- Version : 1.0								--
+-- Date    : 21.01.2021							--
+-- --------------------------					--
 
 USE MagasinDeDisques;
 
@@ -36,9 +36,9 @@ CREATE VIEW createView AS SELECT * FROM
 
 GO
 
--- Display view --
+-- Afficher vue --
 
 SELECT *
-FROM createViews;
+FROM createView;
 
 USE master;

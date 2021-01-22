@@ -1,10 +1,10 @@
   
--- -------------------------- --
--- Project : Magasin de disques    --
--- Author  : Santos Tiago et Collaud Nathanael --
--- Version : 1.0              --
--- Date    : 21.01.2021       --
--- -------------------------- --
+-- --------------------------					--
+-- Project : Magasin de disques					--
+-- Author  : Santos Tiago et Collaud Nathanael	--
+-- Version : 1.0								--
+-- Date    : 21.01.2021							--
+-- --------------------------					--
 
 USE MagasinDeDisques;
 

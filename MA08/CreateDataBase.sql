@@ -1,7 +1,10 @@
-/*Author : Collaud Nathanaël & Santos Tiago
-  Date   : 20/01/2021
-  Project: MagasinDeDisques
-*/
+-- --------------------------					--
+-- Project : Magasin de disques					--
+-- Author  : Santos Tiago et Collaud Nathanael	--
+-- Version : 1.0								--
+-- Date    : 21.01.2021							--
+-- --------------------------					--
+
 
 -- Créer Database
 USE master ;
@@ -9,32 +12,22 @@ USE master ;
 IF (EXISTS (SELECT name
 FROM master.dbo.sysdatabases
 WHERE name = 'MagasinDeDisques'))
-BEGIN dropDataBase;
+BEGIN 
     USE master;
     ALTER DATABASE MagasinDeDisques SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
     DROP DATABASE MagasinDeDisques;
-END dropDataBase;
+END 
 -- création
 CREATE DATABASE MagasinDeDisques;
 GO
-( NAME = Magasin_De_Disque_dat,
-    FILENAME = 'C:\Users\tanol\Desktop\MA-08$\MagasinDeDisques_dat.mdf',
-    SIZE = 10MB,
-    MAXSIZE = 50MB,
-    FILEGROWTH = 10MB )
-    LOG ON  
-( NAME =  Magasin_De_Disque_log,  
-    FILENAME = 'C:\Users\tanol\Desktop\MA-08$\MagasinDeDisques_log.ldf',  
-    SIZE = 5MB,  
-    MAXSIZE = 25MB,  
-    FILEGROWTH = 5MB ) ;  
+
 
  USE MagasinDeDisques;
 -- création des tables
- BEGIN CreateTable
+ BEGIN 
 -- Créer table Producters
  CREATE TABLE Producters
-	( id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	( id int IDENTITY(1,1) NOT NULL ,
 	  ProducterNumber int UNIQUE NOT NULL,
 	  Lastname varchar (45),
 	  Firstname varchar (45),
@@ -44,7 +37,7 @@ GO
 -- drop table areas
 -- Créer table Artists
  CREATE TABLE Artists
-	( id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	( id int IDENTITY(1,1) NOT NULL ,
 	  ArtistNumber int UNIQUE NOT NULL,
 	  Lastname varchar (45),
 	  Firstname varchar (45),
@@ -55,7 +48,7 @@ GO
 
 -- Créer table Groupes
 CREATE TABLE Groupes
-	( id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	( id int IDENTITY(1,1) NOT NULL ,
 	  GroupesNumber int NOT NULL,
 	 GroupName varchar (45) ,
 	 NumberOfMember int ,
@@ -63,14 +56,14 @@ CREATE TABLE Groupes
 
 -- Créer table Groupes_has_Artists
 CREATE TABLE Groupes_has_Artists
-	(id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
-    Groupes_id int ,	-- FK
-	  Artists_id int ,-- FK
+	(id int IDENTITY(1,1) NOT NULL ,
+    Groupe_id int ,	-- FK
+	  Artist_id int ,-- FK
       PRIMARY KEY(id))	
 
 -- Créer table Customers
 CREATE TABLE Customers
-	( id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	( id int IDENTITY(1,1) NOT NULL ,
 	  CustomerNumber int UNIQUE NOT NULL,
 	  Lastname varchar (45),
 	  Firstname varchar (45),
@@ -79,7 +72,7 @@ CREATE TABLE Customers
 
 -- Créer table Packs
  CREATE TABLE Packs
-	( id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	( id int IDENTITY(1,1) NOT NULL ,
 	  PackNumber int NOT NULL,
 	  NumberOfTitle int NOT NULL,
 	  Price decimal NOT NULL,
@@ -88,20 +81,20 @@ CREATE TABLE Customers
 
 -- Créer table Discs
  CREATE TABLE Discs
-	( id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	( id int IDENTITY(1,1) NOT NULL ,
 	  DiscNumber int UNIQUE NOT NULL,
 	  "Date" date,
 	 NumberOfTitle int,
-     Pricedecimal,
+     Price decimal,
       Duration datetime,
       Producter_id int, -- FK
       Customer_id int, -- FK
-      Pack_id,-- FK
+      Pack_id int,-- FK
       PRIMARY KEY(id))	
 
 -- Créer table Staffs
  CREATE TABLE Staffs
-	( id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	( id int IDENTITY(1,1) NOT NULL ,
 	  StaffNumber int UNIQUE NOT NULL,
 	  Lastname varchar (45),
 	  Firstname varchar (45),
@@ -112,20 +105,20 @@ CREATE TABLE Customers
 
 -- Créer table Styles
  CREATE TABLE Styles
-	( id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	( id int IDENTITY(1,1) NOT NULL ,
 	  "name" varchar (45) NOT NULL,
       PRIMARY KEY(id))
 	  
       -- Créer table Languages
  CREATE TABLE Languages
-	( id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	( id int IDENTITY(1,1) NOT NULL ,
 	  LanguageCode varchar (2) NOT NULL,
       LanguageName varchar (45) not null,
       PRIMARY KEY(id))
       
 -- Créer table Musics
  CREATE TABLE Musics
-	( id int IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	( id int IDENTITY(1,1) NOT NULL,
 	 MusicNumber int UNIQUE NOT NULL,
 	  Title varchar (45) ,							
 	 "date" date,						
@@ -136,7 +129,7 @@ CREATE TABLE Customers
 PRIMARY KEY(id)
 )
 
-END CreateTable
+END 
 
  USE MagasinDeDisques;
 
@@ -156,10 +149,10 @@ REFERENCES Customers(id)
 ON UPDATE CASCADE
 ON DELETE CASCADE
 
-ALTER TABLE Discs WITH CHECK ADD  CONSTRAINT FK_MagasinDeDisques_Producter FOREIGN KEY(Producter_id)
+ALTER TABLE Discs WITH CHECK ADD  CONSTRAINT FK_MagasinDeDisque_Producter FOREIGN KEY(Producter_id)
 REFERENCES Producters(id)
 
-ALTER TABLE Discs WITH CHECK ADD  CONSTRAINT FK_MagasinDeDisques_Customer FOREIGN KEY(Customer_id)
+ALTER TABLE Discs WITH CHECK ADD  CONSTRAINT FK_MagasinDeDisque_Customer FOREIGN KEY(Customer_id)
 REFERENCES Customers(id)
 ON UPDATE CASCADE
 ON DELETE CASCADE
@@ -176,10 +169,10 @@ REFERENCES Languages(id)
 ALTER TABLE Musics WITH CHECK ADD  CONSTRAINT FK_MagasinDeDisques_Style FOREIGN KEY(Style_id)
 REFERENCES Styles(id)
 
-ALTER TABLE Musics WITH CHECK ADD  CONSTRAINT FK_MagasinDeDisques_Artist FOREIGN KEY(Artist_id)
+ALTER TABLE Musics WITH CHECK ADD  CONSTRAINT FK_MagasinDeDisque_Artist FOREIGN KEY(Artist_id)
 REFERENCES Artists(id)
 
-ALTER TABLE Musics WITH CHECK ADD  CONSTRAINT FK_MagasinDeDisques_Disc FOREIGN KEY(Disc_id)
+ALTER TABLE Musics WITH CHECK ADD  CONSTRAINT FK_MagasinDeDisque_Disc FOREIGN KEY(Disc_id)
 REFERENCES Discs(id)
 
 -- contrainte de domaine
