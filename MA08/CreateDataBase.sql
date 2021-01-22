@@ -83,6 +83,7 @@ CREATE TABLE Customers
  CREATE TABLE Discs
 	( id int IDENTITY(1,1) NOT NULL ,
 	  DiscNumber int UNIQUE NOT NULL,
+	  DiscName varchar (45),
 	  "Date" date,
 	 NumberOfTitle int,
      Price decimal,

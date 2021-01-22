@@ -31,7 +31,9 @@ CREATE VIEW createView AS SELECT * FROM
     (SELECT COUNT(*) AS "Staffs" FROM Staffs) as Staffs,
     (SELECT COUNT(*) AS "Packs" FROM Packs) as Packs,
     (SELECT COUNT(*) AS "Discs" FROM Discs) as Discs,
-    (SELECT COUNT(*) AS "Styles" FROM Styles) as Styles
+    (SELECT COUNT(*) AS "Styles" FROM Styles) as Styles,
+	(SELECT COUNT(*) AS "Languages" FROM Languages) as Languages,
+	(SELECT COUNT(*) AS "Musics" FROM Musics) as Musics
 ;
 
 GO
