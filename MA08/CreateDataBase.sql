@@ -140,6 +140,8 @@ END CreateTable
 
  USE MagasinDeDisques;
 
+-- clé étrangère
+
 ALTER TABLE Artists WITH CHECK ADD  CONSTRAINT FK_MagasinDeDisques_Producter FOREIGN KEY(Producter_id)
 REFERENCES Producters(id)
 
@@ -179,5 +181,13 @@ REFERENCES Artists(id)
 
 ALTER TABLE Musics WITH CHECK ADD  CONSTRAINT FK_MagasinDeDisques_Disc FOREIGN KEY(Disc_id)
 REFERENCES Discs(id)
+
+-- contrainte de domaine
+ALTER TABLE Discs
+        ADD CONSTRAINT CHK_NotTooBig CHECK (NumberOfTitle < 20)
+    ;
+ALTER TABLE Packs
+	ADD CONSTRAINT CHK_NotTooMuch CHECK (NumberOfTitle < 60)
+;
 
 USE Master ;
